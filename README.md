@@ -24,7 +24,7 @@ OSM road segments (Way) terminate at more arbitrary endpoints (nodes) that do no
 
 See example below of an OSM Way that is shorter than two intersections
 
-![OSM Way Washtenaw](img/WSM_Way_Washtenaw.png)
+![OSM Way Washtenaw](img/OSM_Way_Washtenaw.png)
 ---
 ### 3. What would be involved in mapping between these two systems?
 
