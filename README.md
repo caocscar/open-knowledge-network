@@ -12,7 +12,7 @@ The data are organized by States reflecting highways that are part of the HPMS-d
 6. Urban Minor Collector
 Additionally, any other highways that are designated as part of the National Highway System
 
-See example below of coverage for Ann Arbor HPMS
+See example below of coverage for Ann Arbor HPMS:
 
 ![HPMS for Ann Arbor Area](img/HPMS_A2.png "HPMS for Ann Arbor Area")
 ---
@@ -22,7 +22,7 @@ Framework road segments are usually defined by intersections at its endpoints. M
 
 OSM road segments (Way) terminate at more arbitrary endpoints (nodes) that do not necessarily coincide with intersections. So they can be shorter or longer than the distance between two intersections.
 
-See example below of an OSM Way that is shorter than two intersections
+See example below of an OSM Way that is shorter than two intersections:
 
 ![OSM Way for Washtenaw Ave](img/OSM_Way_Washtenaw.png "OSM Way for Washtenaw Ave")
 ---
@@ -31,5 +31,6 @@ See example below of an OSM Way that is shorter than two intersections
 OSM road segments consists of nodes. Nodes are GPS points that define the road segment. There are nodes in the road segments that define intersections. 
 - We would have to locate the intersection nodes in OSM. 
 - Then we could do map matching using the endpoints of road segments to intersection nodes in OSM (or vice versa)
+- We would need a process for defining equivalent road segment(s) between these two intersection nodes in OSM.
 
 Fortunately, Scott Bogard, has done item one already. He has constructed a table of all intersection nodes in the continental USA. It is located on the server `tri.esg.gm1` in the database `OSM2019`.
