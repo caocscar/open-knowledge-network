@@ -13,11 +13,11 @@ The data are organized by States reflecting highways that are part of the HPMS-d
 Additionally, any other highways that are designated as part of the National Highway System
 
 See Ann Arbor HPMS as an example of coverage:
-
+![HPMS Ann Arbor](img/HPMS_A2.png)
 ---
 ### 2. How similar are the road segments in OSM and Framework (as an example)?
 
-Framework road segments are usually defined by intersections at its endpoints. OSM road segments are longer than that and can pass through multiple intersections.
+Framework road segments are defined by intersections at its endpoints. OSM road segments are longer than that and can pass through multiple intersections.
 
 ---
 ### 3. What would be involved in mapping between these two systems?
