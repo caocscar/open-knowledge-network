@@ -14,7 +14,7 @@ Additionally, any other highways that are designated as part of the National Hig
 
 See example below of coverage for Ann Arbor HPMS
 
-![HPMS Ann Arbor](img/HPMS_A2.png)
+![HPMS for Ann Arbor Area](img/HPMS_A2.png "HPMS for Ann Arbor Area")
 ---
 ### 2. How similar are the road segments in OSM and Framework (as an example)?
 
@@ -24,7 +24,7 @@ OSM road segments (Way) terminate at more arbitrary endpoints (nodes) that do no
 
 See example below of an OSM Way that is shorter than two intersections
 
-![OSM Way Washtenaw](img/OSM_Way_Washtenaw.png)
+![OSM Way for Washtenaw Ave](img/OSM_Way_Washtenaw.png "OSM Way for Washtenaw Ave")
 ---
 ### 3. What would be involved in mapping between these two systems?
 
