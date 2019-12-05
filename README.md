@@ -1,7 +1,7 @@
 # Open Knowledge Network (OKN)
 ### 1. How complete is HPMS (and its underlying referencing systems) nationally? How open is it across states?
 
-The [website](https://www.fhwa.dot.gov/policyinformation/hpms/shapefiles.cfm) has shapefiles for all 50 states, DC and PR. There is also a national shapefile which has a subset of the roads in the state files.
+The [FHWA website](https://www.fhwa.dot.gov/policyinformation/hpms/shapefiles.cfm) has shapefiles for all 50 states, DC and PR. There is also a national shapefile which has a subset of the roads in the state files.
 
 The data are organized by States reflecting highways that are part of the HPMS-defined Federal-Aid System:
 1. Interstate
@@ -31,6 +31,6 @@ See example below of an OSM Way that is shorter than two intersections:
 OSM road segments consists of nodes. Nodes are GPS points that define the road segment. There are nodes in the road segments that define intersections. 
 - We would have to locate the intersection nodes in OSM. 
 - Then we could do map matching using the endpoints of road segments to intersection nodes in OSM (or vice versa)
-- We would need a process for defining equivalent road segment(s) between these two intersection nodes in OSM.
+- We would need a process for defining an equivalent road segment between these two intersection nodes in OSM.
 
 Fortunately, Scott Bogard, has done item one already. He has constructed a table of all intersection nodes in the continental USA. It is located on the server `tri.esg.gm1` in the database `OSM2019`.
