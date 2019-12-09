@@ -12,6 +12,7 @@ The data are organized by States reflecting highways that are part of the HPMS-d
 6. Urban Minor Collector
 Additionally, any other highways that are designated as part of the National Highway System
 
+For Michigan, there are 795,003 road segments in Framework v17a and 187,418 road segments in HPMS 2017 or about 24% of Framework.
 See example below of coverage for Ann Arbor HPMS:
 
 ![HPMS for Ann Arbor Area](img/HPMS_A2.png "HPMS for Ann Arbor Area")
